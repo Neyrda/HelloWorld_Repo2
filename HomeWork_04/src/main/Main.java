@@ -9,13 +9,11 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		/** 1 */
-		
 		String text1 = "I love programming", text2 = "program";
 		boolean result = text1.contains(text2);
 		System.out.println(" text1:" + result);
 		
 		/** 2 */
-		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Search text:");
 		text2 = sc.nextLine();
@@ -23,7 +21,6 @@ public class Main {
 		System.out.println("text2:" + result2);
 		
 		/** 3 */
-		
 		System.out.println("Please give the original text: ");
 		String originalText = sc.nextLine();
 		System.out.println("Please give the text to search for: ");
@@ -32,7 +29,6 @@ public class Main {
 		System.out.println("text3:" + result3);
 		
 		/** 4 */
-		
 		System.out.println("Please give a number from 1 to 10");
 		int givenNumb = sc.nextInt();
 		Random random = new Random();
